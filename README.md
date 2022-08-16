@@ -20,11 +20,11 @@ While False Positives are not our primary concern, too many false positives will
 ## Iterative Modeling process
 ### Recall Comparison
 
-![Model Recall Comparison](model-comparison.png)
+![Model Recall Comparison](images/model-comparison.png)
 ## Final Model
 The final model was a Random Forest Classifier with hyper-tuned parameters.
 
-![model parameters](images/model-params)
+![model parameters](images/model-params.png)
 
 ## Confusion Matrix
 
@@ -32,7 +32,7 @@ The final model was a Random Forest Classifier with hyper-tuned parameters.
 
 ## Feature Importance
 
-![feature Importance](impages/fm-features.png)
+![feature Importance](images/fm-features.png)
 
 ## Deliverables
 * [Non-Technical Presentation](/pdf/non-tech-pres-syria-telcom-cflynn.pdf)
