@@ -20,29 +20,19 @@ While False Positives are not our primary concern, too many false positives will
 ## Iterative Modeling process
 ### Recall Comparison
 
-![Model Recall Comparison](images/model-comparison.png)
+![Model Recall Comparison](model-comparison.png)
 ## Final Model
 The final model was a Random Forest Classifier with hyper-tuned parameters.
 
 ![model parameters](images/model-params.png)
 
-
 ## Confusion Matrix
-Our final confusion matrix can be seen below for both our training and testing data
 
-### Training Matrix
-Recall ~95%
 ![final model confusion matrix](images/fm-cmatrix.png)
-### Testing Matrix
-Recall ~80%
-![final model validation confusion matrix](images/fm-val-cmatrix.png)
-## Feature Importance
-Our top 3 features:
-* Total Day Charge
-* Area Code
-* Customer Service Calls
 
-![feature Importance](images/fm-features.png)
+## Feature Importance
+
+![feature Importance](impages/fm-features.png)
 
 ## Deliverables
 * [Non-Technical Presentation](/pdf/non-tech-pres-syria-telcom-cflynn.pdf)
